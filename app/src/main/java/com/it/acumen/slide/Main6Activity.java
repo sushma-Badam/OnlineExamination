@@ -40,7 +40,7 @@ public class Main6Activity extends AppCompatActivity {
                 for(DataSnapshot ds:dataSnapshot.getChildren())
                 {
                     user=ds.getValue(User.class);
-                    list.add("Test name:"+user.getTestname().toString()+"  \n " +"Branch :"+user.getBranch().toString()+"\n"+"TAKE TEST");
+                    list.add("Test name:"+user.getTestname().toString()+"  \n " +"Branch :"+user.getBranch().toString());
                 }
                 listview.setAdapter(adapter);
             }

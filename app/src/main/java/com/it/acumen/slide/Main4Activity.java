@@ -22,7 +22,7 @@ public class Main4Activity extends AppCompatActivity {
     private Button rbtn;
     private EditText raddress;
     private EditText rphno;
-    private EditText rdob;
+    public EditText rdob;
     private FirebaseAuth firebaseAuth;
     FirebaseDatabase database;
     DatabaseReference myref;
